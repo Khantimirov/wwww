@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Частный детектив", "Частный детектив\Частный детектив.csproj", "{D14470CC-F6AD-4528-85DC-8E0A6825BEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulTest", "TestForPITPM\ModulTest.csproj", "{1302C792-9E7C-4DCA-9860-0DD5F710C333}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D14470CC-F6AD-4528-85DC-8E0A6825BEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14470CC-F6AD-4528-85DC-8E0A6825BEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14470CC-F6AD-4528-85DC-8E0A6825BEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14470CC-F6AD-4528-85DC-8E0A6825BEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1302C792-9E7C-4DCA-9860-0DD5F710C333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1302C792-9E7C-4DCA-9860-0DD5F710C333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1302C792-9E7C-4DCA-9860-0DD5F710C333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1302C792-9E7C-4DCA-9860-0DD5F710C333}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DC88D13-5BC4-4A97-9C14-7A11934A9A7A}
+	EndGlobalSection
+EndGlobal

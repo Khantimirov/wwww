@@ -1,0 +1,30 @@
+﻿<Window x:Class="Частный_детектив.AdminWorker"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Частный_детектив"
+        mc:Ignorable="d"
+        Title="Сотрудники" Height="500" Width="350" Closed="Window_Closed" Loaded="Window_Loaded" MinWidth="350" MinHeight="500" Icon="log.png">
+    <DockPanel LastChildFill="False">
+        <Image DockPanel.Dock="Top" Source="/logo.png" Height="58"/>
+        <TextBlock Text="Имя" DockPanel.Dock="Top"/>
+        <TextBox x:Name="textBoxName" DockPanel.Dock="Top" TextWrapping="Wrap"/>
+        <TextBlock Text="Номер телефона" DockPanel.Dock="Top"/>
+        <TextBox x:Name="textBoxNumber" DockPanel.Dock="Top" TextWrapping="Wrap"/>
+        <TextBlock Text="Почта" DockPanel.Dock="Top"/>
+        <TextBox x:Name="textBoxMail" DockPanel.Dock="Top" TextWrapping="Wrap"/>
+        <TextBlock Text="Логин" HorizontalAlignment="Left" DockPanel.Dock="Top"/>
+        <TextBox x:Name="textBoxLogin" DockPanel.Dock="Top" TextWrapping="Wrap"/>
+        <TextBlock Text="Пароль" HorizontalAlignment="Left" DockPanel.Dock="Top"/>
+        <TextBox x:Name="textBoxPassword" DockPanel.Dock="Top" TextWrapping="Wrap"/>
+        <TextBlock Text="Отдел" DockPanel.Dock="Top"/>        
+        <ComboBox x:Name="textBoxOtdel" DockPanel.Dock="Top" Margin="20,0,20,0" >
+            <ComboBoxItem Content="сайт"/>
+            <ComboBoxItem Content="маркетинг" />
+            <ComboBoxItem Content="реклама" />
+            <ComboBoxItem Content="приложение" />
+        </ComboBox>
+        <Button Content="OK" DockPanel.Dock="Bottom" Click="Button_Click"/>
+    </DockPanel>
+</Window>

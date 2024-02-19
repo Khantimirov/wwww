@@ -1,0 +1,24 @@
+﻿<Window x:Class="Частный_детектив.KlientChats"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Частный_детектив"
+        mc:Ignorable="d"
+        Title="Чаты" Height="600" Width="600" Loaded="Window_Loaded" Icon="log.png" Closed="Window_Closed" MinWidth="600" MinHeight="600" >
+    <Window.Resources>
+        <Style x:Key="People" TargetType="Button">
+            <Setter Property="Height" Value="50" />
+            <Setter Property="Margin" Value="20" />
+            <Setter Property="Background" Value="#a6075b"/>
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+    </Window.Resources>
+    <DockPanel LastChildFill="False">
+        <ScrollViewer DockPanel.Dock="Top">
+            <StackPanel x:Name="stack">
+                <Image Source="/logo.png" Height="58"/>
+            </StackPanel>
+        </ScrollViewer>
+    </DockPanel>
+</Window>
